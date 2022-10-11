@@ -1,0 +1,89 @@
+.navbar ,.navbar-brand {
+	margin-bottom: 0;
+}
+
+/*.dan{
+	padding: 0 0 0 625px;
+}*/
+
+.niche{
+	margin-top: 50px;
+}
+
+
+.boro{
+	font-size: 25px;
+}
+.majhe{
+	top:50%;
+}
+
+#footer-top {
+	padding: 80px 0 60px;
+	background-color: BLACK;
+	color: #cacaca;
+}
+
+#footer-bottom {
+	background-color: BLACK;
+	color: #cacaca;
+	padding: 15px 0;
+}
+
+#quickview {
+	padding: 0 0 30px;
+	background-color: white;
+}
+
+#moto{
+	padding: 20px 0 20px;
+	background-color: #f9f9f9;
+}
+
+.container1{background-color: white;
+	width:100%;
+}
+
+.container2{
+	background-color: #4f484c;
+	width:100%;
+	color: white;
+}	
+
+.container3{
+	background-color: White;
+}
+
+.item active img{width:100%}
+.item  img{width:100%;
+      height:100%;
+	  }
+.thumbnail{width:100%;height:100%;}
+.container{background-color: black;
+	width:100%;	
+}
+
+h1 {
+		text-transform: uppercase;
+		margin-bottom: 40px;
+		color:#646464;
+		text-align: center;
+	}
+
+#mainContent{background-color:#f6f6f6; display:inline; float:left; padding-top:15px; width:100%}
+.content_top{float:left; display:inline; width:100%}
+.latest_slider{float:left; display:inline; width:100%; padding-left:10px}
+.single_iteam{position:relative}
+.single_iteam img{width:100%}
+.single_iteam h2{display:inline-block; left:0; position:absolute; right:0; font-size:20px; text-align:center; top:45%}
+.single_iteam h2 > a:hover{text-decoration:underline}
+.single_iteam h2 > a{background-color:rgba(0,0,0,0.4); color:#fff; display:inline-block; font-size:20px; padding:10px}
+.content_top_right{float:left; display:inline; width:100%}
+.featured_nav{}
+.featured_nav li{display:block; float:left; height:208px; margin-bottom:10px; margin-right:10px; position:relative; width:48%}
+.featured_nav li img{width:100%; height:100%}
+.featured_nav li:hover .title_caption{height:130px; padding-top:15%}
+.title_caption{position:absolute; left:0; right:0; bottom:0; padding:10px; text-align:center; 
+               background-color:rgba(0,0,0,0.75); -webkit-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.featured_nav li a{display:block; width:100%; height:100%; font-size:16px; color:#fff; -webkit-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+

@@ -1,0 +1,93 @@
+@font-face{
+	font-family:Roboto;
+	src:url(../fonts/Roboto-Bold.ttf);
+
+}
+
+
+/*ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 200px;
+	background-color: #ddd;
+	border: 1px solid;
+}
+li {
+	border-bottom: 1px solid;
+	text-align: center;
+}
+li a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	padding: 10px;
+	text-transform: uppercase;
+	
+}
+li:last-child {
+	border-bottom: none;
+}
+li:hover a{
+	background-color: green; 
+}
+
+.active {
+	background-color: red;
+}*/
+body {
+	/*overflow: hidden;*/
+	font-family: 'Roboto', sans-serif;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: #ddd;
+	border: 1px solid;
+	/*overflow: hidden;*/
+}
+.clearfix {
+	clear: both;
+}
+li {
+	/*border-bottom: 1px solid;*/
+	/*display: inline;*/
+	float: left;
+	text-align: center;
+}
+li a{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	padding: 20px;
+	text-transform: uppercase;
+	
+}/*
+li:last-child {
+	border-bottom: none;
+}*/
+li:hover{
+	background-color: green; 
+}
+
+.active {
+	background-color: red;
+}
+
+.dropdown {
+	position: relative;
+	
+}
+.dropdown-menu {
+	display: none;
+	position: absolute;
+}
+.dropdown ul li {
+	display: block;
+	float: none;
+}  
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
